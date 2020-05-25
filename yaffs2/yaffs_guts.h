@@ -885,7 +885,6 @@ int yaffs_DumpObject(yaffs_Object * obj);
 void yaffs_GutsTest(yaffs_Device * dev);
 
 /* A few useful functions */
-void yaffs_InitialiseTags(yaffs_ExtendedTags * tags);
 void yaffs_DeleteChunk(yaffs_Device * dev, int chunkId, int markNAND, int lyn);
 int yaffs_CheckFF(__u8 * buffer, int nBytes);
 void yaffs_HandleChunkError(yaffs_Device *dev, yaffs_BlockInfo *bi);
